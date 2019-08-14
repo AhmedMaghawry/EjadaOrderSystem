@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".View.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:id="@+id/toolbar">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:text="Available Providers : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:id="@+id/add"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/lvExp"
+        android:descendantFocusability="afterDescendants"
+        android:focusable="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Now"
+        android:id="@+id/order"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_round_g" />
+
+</LinearLayout>
