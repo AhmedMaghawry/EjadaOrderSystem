@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ejada Order System Admin</string>
+    <string name="app_title">Ej OS Admin</string>
+    <string name="ezzat">Powered by Ezzat</string>
+    <string name="login">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="status">Your Status : </string>
+
+    <string name="store_prompt">Choose a country</string>
+
+    <string-array name="store_arrays">
+        <item>Abo Rabi3</item>
+        <item>Sori</item>
+        <item>Set El Sham</item>
+        <item>Koshk Araby</item>
+    </string-array>
+</resources>
